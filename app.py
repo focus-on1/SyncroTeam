@@ -1,26 +1,13 @@
-# app.py
-from flask import Flask, send_from_directory
+# api/index.py (principal point d'entrée pour Vercel)
+from flask import Flask, send_from_directory, request
 import os
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
+@app.route('/', methods=['GET'])
+def home():
     return "Bienvenue sur le serveur de calendrier !"
 
-@app.route('/calendar.ics')
-def calendar():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'event.ics')
-
-# Point d'entrée pour Vercel
-from flask import request
-
-@app.route('/api/index', methods=['GET'])
-def api_index():
-    return index()
-
-@app.route('/api/calendar', methods=['GET'])
-def api_calendar():
-    return calendar()
-
-app = app
+@app.route('/calendar.ics', methods=['GET'])
+def serve_calendar():
+    return send_from_directory('static', 'event.ics')
