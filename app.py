@@ -1,3 +1,4 @@
+# app.py
 from flask import Flask, send_from_directory
 import os
 
@@ -9,9 +10,17 @@ def index():
 
 @app.route('/calendar.ics')
 def calendar():
-    # Remplacez le chemin ci-dessous par celui de votre fichier .ics dans le répertoire static
     return send_from_directory(os.path.join(app.root_path, 'static'), 'event.ics')
 
-if __name__ == "__main__":
-    # Lancer l'app Flask sur 0.0.0.0 pour écouter sur toutes les interfaces
-    app.run(host='0.0.0.0', port=5000, debug=True)
+# Point d'entrée pour Vercel
+from flask import request
+
+@app.route('/api/index', methods=['GET'])
+def api_index():
+    return index()
+
+@app.route('/api/calendar', methods=['GET'])
+def api_calendar():
+    return calendar()
+
+app = app

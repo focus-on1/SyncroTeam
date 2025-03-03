@@ -1,0 +1,24 @@
+// vercel.json
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/api/index"
+      },
+      {
+        "src": "/calendar.ics",
+        "dest": "/api/calendar"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/app.py"
+      }
+    ]
+  }
