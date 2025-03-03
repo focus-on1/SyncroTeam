@@ -5,7 +5,7 @@ METHOD:PUBLISH
 CALSCALE:GREGORIAN
 
 BEGIN:VEVENT
-SUMMARY:   Nou parlerons demain de cela merci  
+SUMMARY:   Parfaitttt
 DESCRIPTION:Discussion sur l'avancement du projet et les prochaines étapes.
 DTSTART:20250304T140000Z
 DTEND:20250304T153000Z
@@ -16,7 +16,7 @@ SEQUENCE:0
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:  Pas de soucis le serveur marche 
+SUMMARY:  Pas de soucis sa marche 
 DESCRIPTION:Discussion sur toi.
 DTSTART:20250306T140000Z
 DTEND:20250306T153000Z
