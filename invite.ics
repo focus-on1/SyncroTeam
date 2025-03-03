@@ -1,0 +1,111 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Romance Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Xavier Crenn:mailto:xcrenn@cfa-numia.fr
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=maleekbaka
+ yoko@gmail.com:mailto:maleekbakayoko@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=walid.bouk
+ ais1@gmail.com:mailto:walid.boukais1@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=famille.ca
+ lmetdavoust@gmail.com:mailto:famille.calmetdavoust@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=moann.enna
+ ji@gmail.com:mailto:moann.ennaji@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=maximeeuze
+ nat.mpe@gmail.com:mailto:maximeeuzenat.mpe@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=sebright25
+ @gmail.com:mailto:sebright25@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=daoudagary
+ 92@gmail.com:mailto:daoudagary92@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=ndiayem913
+ 500@gmail.com:mailto:ndiayem913500@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=ouislyn@gm
+ ail.com:mailto:ouislyn@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=14.hugo.pe
+ titjean@gmail.com:mailto:14.hugo.petitjean@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=yassinrabh
+ i91@gmail.com:mailto:yassinrabhi91@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=maxbaz0105
+ @gmail.com:mailto:maxbaz0105@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=kais.bouzo
+ mmita91@gmail.com:mailto:kais.bouzommita91@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=maxi.binoi
+ s@gmail.com:mailto:maxi.binois@gmail.com
+DESCRIPTION;LANGUAGE=fr-FR:Salle à définir\n\n___________________________
+ _____________________________________________________\nMicrosoft Teams Bes
+ oin d'aide ?<https://aka.ms/JoinTeamsMeeting?omkt=fr-FR>\nRejoignez la ré
+ union maintenant<https://teams.microsoft.com/l/meetup-join/19%3ameeting_MT
+ IzZDJlMjktZDQ2Ny00NjFmLWJhYjQtNWNkMjU0ZTY5ZTlk%40thread.v2/0?context=%7b%2
+ 2Tid%22%3a%22c6b277e4-741f-4085-ae8d-c9a9156bae4f%22%2c%22Oid%22%3a%2230e4
+ 81d3-8c2e-4886-b767-8d4146752d25%22%7d>\nID de réunion : 391 825 443 846\
+ nCode secret : 3cyJCp\n________________________________\nPour les organisa
+ teurs : Options de réunion<https://teams.microsoft.com/meetingOptions/?or
+ ganizerId=30e481d3-8c2e-4886-b767-8d4146752d25&tenantId=c6b277e4-741f-4085
+ -ae8d-c9a9156bae4f&threadId=19_meeting_MTIzZDJlMjktZDQ2Ny00NjFmLWJhYjQtNWN
+ kMjU0ZTY5ZTlk@thread.v2&messageId=0&language=fr-FR>\n_____________________
+ ___________________________________________________________\n
+UID:040000008200E00074C5B7101A82E008000000002F79799D6C00DB01000000000000000
+ 01000000052A6F50D334CB848B525EAEF5B7788A8
+SUMMARY;LANGUAGE=fr-FR:Atelier CIEL et SIO
+DTSTART;TZID=Romance Standard Time:20240912T103000
+DTEND;TZID=Romance Standard Time:20240912T120000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20240906T145405Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=fr-FR:Réunion Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2122921519
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MTIzZDJlMjktZDQ2Ny00NjFmLWJhYjQtNWNkMjU0ZTY5ZTlk%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22c6b277e4-741f-4085-ae8d-c9a9156bae4f%22%2c%22O
+ id%22%3a%2230e481d3-8c2e-4886-b767-8d4146752d25%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/c6b277e4-741f-4085-ae8d-c9a9156bae4f/30e481d3-8c2e-4886-b767-8
+ d4146752d25/19_meeting_MTIzZDJlMjktZDQ2Ny00NjFmLWJhYjQtNWNkMjU0ZTY5ZTlk@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MTIzZDJlMjktZDQ2Ny00NjF
+ mLWJhYjQtNWNkMjU0ZTY5ZTlk@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Réunion Microsoft Teams
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Réunion Microsoft Teams"\,"Location
+ Annotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,
+ "LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locati
+ onFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:P
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
