@@ -7,7 +7,7 @@ X-PUBLISHED-TTL:PT5M
 X-WR-CALNAME:Calendrier Important
 
 BEGIN:VEVENT
-SUMMARY: okkk
+SUMMARY:  parfait 
 DESCRIPTION:Discussion sur l'avancement du projet et les prochaines étapes.
 DTSTART:20250304T140000Z
 DTEND:20250304T153000Z
