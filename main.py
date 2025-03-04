@@ -6,7 +6,7 @@ cal = Calendar()
 # Création de l'événement
 event = Event()
 event.name = "Réunion d'orde "
-event.begin = "2025-03-03 21:00:00"
+event.begin = "2025-03-03 13:25:00"
 event.end = "2025-03-03 23:30:00"
 event.location = "Bureau 30"
 event.description = "Discussion sur toi ."
